@@ -1,0 +1,121 @@
+/* Header Styles with Black Outline */
+h1 {
+    color: #ffcb05; /* Steelers Gold */
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 
+        -2px -2px 0 #333, /* Top-left outline */
+        2px -2px 0 #333,  /* Top-right outline */
+        -2px 2px 0 #333,  /* Bottom-left outline */
+        2px 2px 0 #333,   /* Bottom-right outline */
+        0 0 5px rgba(0, 0, 0, 0.3); /* Subtle glow for extra pop */
+}
+
+/* Optional for Subheadings */
+h3 {
+    color: #ffcb05; /* Steelers Gold */
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-shadow: 
+        -1px -1px 0 #333, 
+        1px -1px 0 #333,  
+        -1px 1px 0 #333,  
+        1px 1px 0 #333;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Container for the main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Image Container */
+.image-container {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Weather Description */
+.description-container {
+    background-color: #fdf6e3; /* Light, warm tone for emphasis */
+    border-left: 5px solid #ffcb05; /* Yellow stripe nod to Pittsburgh */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.weather-description {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Table Container */
+.table-container {
+    margin: 20px auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.table-style th {
+    background-color: #333; /* Steelers Black */
+    color: #ffcb05; /* Steelers Gold */
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.table-style td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+/* Table Row Hover Effect */
+.table-style tr:hover {
+    background-color: #f4f4f4;
+}
+
+/* Alternate Row Colors */
+.table-style tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Footer or Subtle Branding */
+footer {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
